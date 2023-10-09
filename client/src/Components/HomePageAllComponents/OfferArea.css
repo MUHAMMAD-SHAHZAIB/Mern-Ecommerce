@@ -1,0 +1,39 @@
+.offer_area {
+  background: url(../../assets/img/offer-bg.png) no-repeat center;
+  background-size: cover;
+}
+@media (max-width: 991px) {
+  .offer_area {
+    background: #f6f6f6;
+  }
+}
+
+.offer_content {
+  padding: 132px 0px;
+}
+@media (max-width: 991px) {
+  .offer_content {
+    padding: 100px 0px;
+  }
+}
+.offer_content h3 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+.offer_content h2 {
+  font-size: 100px;
+  line-height: 80px;
+  color: #2a2a2a;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .offer_content h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+.offer_content p {
+  margin-bottom: 0px;
+}

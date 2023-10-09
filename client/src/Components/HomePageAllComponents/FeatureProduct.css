@@ -1,0 +1,15 @@
+
+.single-product .product-img .p_icon {
+  width: 90%;
+  padding: 7px 30px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 400ms ease;
+}
+
